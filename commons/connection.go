@@ -20,6 +20,6 @@ func Migrate() {
 	db := GetConnection()
 	defer db.Close()
 	log.Println("Executing Migration")
-	db.AutoMigrate(&models.Persona{})
+	db.AutoMigrate(&models.Usuario{})
 	db.AutoMigrate(&models.Register{})
 }

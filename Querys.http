@@ -1,0 +1,72 @@
+GET http://localhost:8080/user/api/all
+Accept: application/json
+
+<> 2022-11-08T200155.200.json
+<> 2022-11-08T195550.200.json
+<> 2022-11-08T195547.200.json
+<> 2022-11-08T195544.200.json
+<> 2022-11-08T194924.200.json
+<> 2022-11-08T103018.200.json
+<> 2022-11-08T102821.200.json
+<> 2022-11-08T102745.200.json
+<> 2022-11-08T102714.200.json
+<> 2022-11-08T101548.200.json
+<> 2022-11-08T101538.200.json
+<> 2022-11-08T101451.200.json
+<> 2022-11-08T101449.200.json
+<> 2022-11-08T101306.200.json
+<> 2022-11-08T101301.200.json
+<> 2022-11-08T100408.200.json
+<> 2022-11-08T100404.200.json
+
+###
+
+POST http://localhost:8080/user/api/save
+Accept: application/json
+{
+"nombre": "Howard Jose",
+"apellido": "Hinestroza Robledo",
+"direccion": "carrear 74b numero 94-68",
+"telefono":  "3194405946"
+}
+
+<> 2022-11-08T101510.400.txt
+<> 2022-11-08T101249.400.txt
+<> 2022-11-08T100530.400.txt
+<> 2022-11-08T100359.400.txt
+<> 2022-11-08T100155.400.txt
+<> 2022-11-08T095917.400.txt
+<> 2022-11-08T095800.400.txt
+###
+
+POST http://localhost:8080/user/api/delete/20
+Accept: application/json
+
+<> 2022-11-08T103010.200.json
+<> 2022-11-08T102804.200.json
+<> 2022-11-08T102741.200.json
+<> 2022-11-08T102618.200.json
+<> 2022-11-08T102609.404.txt
+<> 2022-11-08T102456.404.txt
+###
+
+GET http://localhost:8080/user/api/find/1
+Accept: application/json
+
+<> 2022-11-08T210018.200.json
+<> 2022-11-08T210015.200.json
+<> 2022-11-08T102625.404.json
+<> 2022-11-08T102348.200.json
+###
+
+GET http://localhost:8080/auth/api/find/register
+Accept: application/json
+
+<> 2022-11-08T210341.200.json
+<> 2022-11-08T210337.200.json
+<> 2022-11-08T210310.404.json
+<> 2022-11-08T210151.404.json
+<> 2022-11-08T210148.404.json
+
+
+###
