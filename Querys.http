@@ -39,7 +39,7 @@ Accept: application/json
 <> 2022-11-08T095800.400.txt
 ###
 
-POST http://localhost:8080/user/api/delete/20
+POST http://localhost:8080/user/api/delete/1
 Accept: application/json
 
 <> 2022-11-08T103010.200.json
@@ -70,3 +70,5 @@ Accept: application/json
 
 
 ###
+GET http://localhost:8080/auth/api/login
+Accept: application/json

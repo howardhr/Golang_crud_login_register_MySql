@@ -4,9 +4,8 @@ import (
 	json2 "encoding/json"
 	"github.com/gorilla/mux"
 	"gomysql/commons"
-	"gomysql/models"
-	"log"
-	http "net/http"
+	"gomysql/user/models"
+	"net/http"
 )
 
 func GetAll(w http.ResponseWriter, r *http.Request) {
@@ -34,7 +33,7 @@ func Get(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func Save(w http.ResponseWriter, r *http.Request) {
+/*func Save(w http.ResponseWriter, r *http.Request) {
 	user := models.Usuario{}
 
 	db := commons.GetConnection()
@@ -55,7 +54,7 @@ func Save(w http.ResponseWriter, r *http.Request) {
 	}
 	json, _ := json2.Marshal(user)
 	commons.SendResponse(w, http.StatusCreated, json)
-}
+}*/
 
 func Delete(w http.ResponseWriter, r *http.Request) {
 	user := models.Usuario{}

@@ -3,7 +3,7 @@ package commons
 import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
-	"gomysql/models"
+	"gomysql/user/models"
 	"log"
 )
 
@@ -21,5 +21,4 @@ func Migrate() {
 	defer db.Close()
 	log.Println("Executing Migration")
 	db.AutoMigrate(&models.Usuario{})
-	db.AutoMigrate(&models.Register{})
 }
